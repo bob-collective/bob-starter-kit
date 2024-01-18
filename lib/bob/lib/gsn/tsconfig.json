@@ -1,0 +1,27 @@
+{
+  "references": [
+    {
+      "path": "./packages/cli"
+    },
+    {
+      "path": "./packages/common"
+    },
+    {
+      "path": "./packages/dev"
+    },
+    {
+      "path": "./packages/relay"
+    },
+    {
+      "path": "./packages/provider"
+    }
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "openzeppelin__test-helpers",
+      "date-format",
+      "chai-bn"
+    ]
+  }
+}
