@@ -25,7 +25,7 @@ yarn-error.log*
 
 # Compiler files
 cache/
-out/
+out/*
 
 # Ignores development broadcast logs
 !/broadcast
@@ -34,9 +34,3 @@ out/
 
 # Dotenv file
 .env
-
-# node modules
-node_modules/*
-
-# generated docs
-/docs/docs/api/*

@@ -40,5 +40,5 @@ export USDT_ADDRESS=0xF58de5056b7057D74f957e75bFfe865F571c3fB6
 export RPC_URL=https://testnet.rpc.gobob.xyz
 export VERIFIER_URL=https://testnet-explorer.gobob.xyz/api?
 
-forge script script/HelloWorld.sol --rpc-url=$RPC_URL --broadcast --verify --verifier blockscout --verifier-url=$VERIFIER_URL
+forge script script/HelloBitcoin.sol --rpc-url=$RPC_URL --broadcast --verify --verifier blockscout --verifier-url=$VERIFIER_URL
 ```
