@@ -42,3 +42,9 @@ export VERIFIER_URL=https://testnet-explorer.gobob.xyz/api?
 
 forge script script/HelloBitcoin.sol --rpc-url=$RPC_URL --broadcast --verify --verifier blockscout --verifier-url=$VERIFIER_URL
 ```
+
+## Get Support
+
+- [Telegram (Dev)](https://t.me/+CyIcLW2nfaFlNDc1)
+- [Discord](https://discordapp.com/invite/interlay)
+- [Open an issue on the BOB main repository](https://github.com/bob-collective/bob/issues)
