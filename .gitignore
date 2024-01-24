@@ -25,7 +25,7 @@ yarn-error.log*
 
 # Compiler files
 cache/
-out/*
+out/
 
 # Ignores development broadcast logs
 !/broadcast
@@ -34,3 +34,5 @@ out/*
 
 # Dotenv file
 .env
+
+.idea
