@@ -14,6 +14,13 @@ BOB is a Bitcoin-augmented rollup bringing experimentation and freedom of choice
 
 We use foundry extensively for maintaining and testing this contract suite:
 
+### Clone this Repo
+
+```shell
+$ git clone --recursive https://github.com/bob-collective/StarterKit.git
+$ cd StarterKit/
+```
+
 ### Build
 
 ```shell
