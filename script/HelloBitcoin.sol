@@ -16,7 +16,7 @@ contract HelloWorldScript is Script {
 
         TestLightRelay relay = new TestLightRelay();
 
-        HelloBitcoin helloBitcoin = new HelloBitcoin(relay, usdt);
+        new HelloBitcoin(relay, usdt);
 
         vm.stopBroadcast();
     }

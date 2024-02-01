@@ -1,1 +1,0 @@
-ignores: ["@openzeppelin/contracts", "hardhat", "truffle-plugin-stdjsonin", "web3-eth-accounts", "@typechain/truffle-v5"]

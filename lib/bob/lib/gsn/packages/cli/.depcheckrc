@@ -1,1 +1,0 @@
-ignores: ["web3-provider-engine", "@types/web3-provider-engine", "ethereum-protocol", "web3-eth-accounts"]
