@@ -50,12 +50,12 @@ contract HelloBitcoinTest is HelloBitcoin, Test {
     }
 
     // Function returning a dummy Bitcoin address for testing
-    function dummyBitcoinAddress() public returns (BitcoinAddress memory) {
+    function dummyBitcoinAddress() public pure returns (BitcoinAddress memory) {
         return BitcoinAddress({scriptPubKey: hex"76a914fd7e6999cd7e7114383e014b7e612a88ab6be68f88ac"});
     }
 
     // Function returning a dummy ordinal Bitcoin address for testing
-    function dummyOrdinalBitcoinAddress() public returns (BitcoinAddress memory) {
+    function dummyOrdinalBitcoinAddress() public pure returns (BitcoinAddress memory) {
         return BitcoinAddress({scriptPubKey: hex"0014e257eccafbc07c381642ce6e7e55120fb077fbed"});
     }
 
