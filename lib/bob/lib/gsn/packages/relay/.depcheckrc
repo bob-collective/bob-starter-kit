@@ -1,1 +1,0 @@
-ignores: ["@types/nedb", "web3-eth-accounts"]

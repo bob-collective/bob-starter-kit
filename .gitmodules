@@ -1,0 +1,6 @@
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/transmissions11/solmate
+[submodule "lib/bob"]
+	path = lib/bob
+	url = https://github.com/bob-collective/bob

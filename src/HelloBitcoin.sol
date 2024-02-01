@@ -336,7 +336,7 @@ contract HelloBitcoin {
         uint256 expectedBtcAmount,
         BitcoinAddress storage bitcoinAddress,
         BitcoinTx.Info calldata transaction
-    ) private {
+    ) private view {
         // Prefixes scriptpubkey with its size to match script output data.
         bytes32 scriptPubKeyHash =
             keccak256(abi.encodePacked(uint8(bitcoinAddress.scriptPubKey.length), bitcoinAddress.scriptPubKey));
