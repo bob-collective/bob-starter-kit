@@ -41,8 +41,9 @@ $ forge fmt
 
 ### To Deploy HelloBitcoin Contract on testnet
 
+- [Guide](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key) to get your private key from MetaMask. 
 ```shell
-export PRIVATE_KEY=<private_key>
+export PRIVATE_KEY=0x<private_key>
 export USDT_ADDRESS=0xF58de5056b7057D74f957e75bFfe865F571c3fB6
 export RPC_URL=https://testnet.rpc.gobob.xyz
 export VERIFIER_URL=https://testnet-explorer.gobob.xyz/api?
