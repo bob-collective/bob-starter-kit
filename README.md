@@ -1,54 +1,40 @@
-# DevStarterKit
+# BOB Starter Kit
 
 ## Build on Bitcoin
 
 BOB is a Bitcoin-augmented rollup bringing experimentation and freedom of choice to builders to make a real-world impact. BOBs vision is to onboard the next billion users to Bitcoin.
 
-## Learn more
-
-- [Website](https://www.gobob.xyz/)
-- [Docs](https://docs.gobob.xyz/)
-- [BOB Repository](https://github.com/bob-collective/bob)
-
 ## Getting Started
 
-We use foundry extensively for maintaining and testing this contract suite:
+Follow the [guide](https://docs.gobob.xyz/docs/build/getting-started/helloworld) to get a full understanding of the contract and deploy it to the BOB testnet.
+
+## Quickstart
+
+We use foundry extensively for maintaining and testing this contract suite.
 
 ### Clone this Repo
 
 ```shell
-$ git clone --recursive https://github.com/bob-collective/StarterKit.git
-$ cd StarterKit/
+git clone --recursive https://github.com/bob-collective/bob-starter-kit.git
+cd bob-starter-kit/
 ```
 
 ### Build
 
 ```shell
-$ forge build
+forge build
 ```
 
 ### Test
 
 ```shell
-$ forge test
+forge test
 ```
 
 ### Format
 
 ```shell
-$ forge fmt
-```
-
-### To Deploy HelloBitcoin Contract on testnet
-
-- [Guide](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key) to get your private key from MetaMask. 
-```shell
-export PRIVATE_KEY=0x<private_key>
-export USDT_ADDRESS=0xF58de5056b7057D74f957e75bFfe865F571c3fB6
-export RPC_URL=https://testnet.rpc.gobob.xyz
-export VERIFIER_URL=https://testnet-explorer.gobob.xyz/api?
-
-forge script script/HelloBitcoin.sol --rpc-url=$RPC_URL --broadcast --verify --verifier blockscout --verifier-url=$VERIFIER_URL
+forge fmt
 ```
 
 ## Get Support
@@ -56,3 +42,11 @@ forge script script/HelloBitcoin.sol --rpc-url=$RPC_URL --broadcast --verify --v
 - [Telegram (Dev)](https://t.me/+CyIcLW2nfaFlNDc1)
 - [Discord](https://discordapp.com/invite/interlay)
 - [Open an issue on the BOB main repository](https://github.com/bob-collective/bob/issues)
+
+
+## Learn more
+
+- [Website](https://www.gobob.xyz/)
+- [Docs](https://docs.gobob.xyz/)
+- [BOB Repository](https://github.com/bob-collective/bob)
+- [App](https://app.gobob.xyz/)
