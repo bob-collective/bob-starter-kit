@@ -3,7 +3,7 @@ pragma solidity >=0.8.0;
 
 import {DSTest} from "ds-test/test.sol";
 import {Vm} from "forge-std/Vm.sol";
-import "@bob-collective/bob/bridge/BitcoinTx.sol";
+import "@bob-collective/bob/utils/BitcoinTx.sol";
 
 //common utilities for forge tests
 contract Utilities is DSTest {
@@ -50,7 +50,7 @@ contract Utilities is DSTest {
             bitcoinHeaders: abi.encodePacked(
                 hex"04000000e0879a33a87bf9481385adae91fa9e93713b932cbe8a09030000000000000000ee5ded948d805bb71bee5de25b447c42527898cac93eee1afe04663bb8204b358627fe56f4960618304a7db1",
                 hex"04000000c0de92e7326cb020b59ffc5998405e539863c57da088a7040000000000000000d8e7273d0198ba4f10dfd57d151327c32113fc244fd0587d161a5c5332a53651ed28fe56f4960618b24502cc"
-                )
+            )
         });
     }
 
@@ -79,7 +79,7 @@ contract Utilities is DSTest {
             txIndexInBlock: 4,
             bitcoinHeaders: abi.encodePacked(
                 hex"00a00020a672b6254445e7b2dd6e5433f52ea9596e6ce51776fa6ea66d0200000000000013d7683b2bfc7d7cde91c6792f62e6b9453ca2f1e72cdbf106ecabf767dd2ac5bcf98f628886021ac954f84d"
-                )
+            )
         });
 
         BitcoinTx.UTXO memory utxo;

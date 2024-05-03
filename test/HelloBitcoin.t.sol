@@ -9,7 +9,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 // Import external contracts
 import {stdStorage, StdStorage, Test, console} from "forge-std/Test.sol";
 import {Utilities} from "./Utilities.sol";
-import {BitcoinTx} from "@bob-collective/bob/bridge/BitcoinTx.sol";
+import {BitcoinTx} from "@bob-collective/bob/utils/BitcoinTx.sol";
 import {TestLightRelay} from "@bob-collective/bob/relay/TestLightRelay.sol";
 import {HelloBitcoin} from "../src/HelloBitcoin.sol";
 
